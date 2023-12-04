@@ -1,0 +1,9 @@
+>>> text = """Nothing"""
+
+>>> import re
+>>> s = re.split(r'[.?!:]+', text)
+>>> def search(word, sentences):
+       return [i for i in sentences if re.search(r'\b%s\b' % word, i)]
+
+>>> search('is', s)
+['Hello', ' This is the second']
