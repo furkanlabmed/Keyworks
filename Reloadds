@@ -20,8 +20,8 @@ def toggle_pupils():
         c.move(pupil_right, -10, -5)
         c.eyes_crossed = True
     else:
-        c.move(pupil_left, -10, 5)
-        c.move(pupil_right, 10, 5)
+        c.move(pupil_left, -9, 5)
+        c.move(pupil_right, 9, 5)
         c.eyes_crossed = False
 
 def toggle_tongue():
