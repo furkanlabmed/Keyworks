@@ -30,7 +30,7 @@ def toggle_tongue():
         c.itemconfigure(tongue_main, state=NORMAL)
         c.tongue_out = True
     else:
-        c.itemconfigure(tongue_tip, state=HIDDEN)
+        c.itemconfigure(tongue_tip, state=NORMAL)
         c.itemconfigure(tongue_main, state=HIDDEN)
         c.tongue_out = False
 def cheeky(event):
